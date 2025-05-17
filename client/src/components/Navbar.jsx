@@ -1,0 +1,1 @@
+<h1 className='text-4xl text-white bg-blue-600 leading-tight tracking-tight p-2 mb-6'>User & Invoice Management</h1>
