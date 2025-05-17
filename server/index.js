@@ -30,6 +30,6 @@ mongoose
     console.log("Error connecting to db : ", error);
   });
 
-app.listen(process.env.PORT_NUMBER, () => {
+app.listen(process.env.PORT_NUMBER || 7000, () => {
   console.log(`server is running on port ${process.env.PORT_NUMBER}`);
 });
