@@ -13,7 +13,7 @@ app.use(cookieParser());
 app.use(morgan('combined'));
 app.use(cors({
   credentials:true,
-  origin :"http://localhost:3007"
+  origin :"https://wavenet-task.vercel.app/"
 
 }));
 app.use(express.json());
